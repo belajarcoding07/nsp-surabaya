@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nusantara Surya Panel Surabaya - Distributor Lampu PJU Solar, Tiang PJU, dan Sistem Energi Surya terpercaya di Surabaya sejak 2019.">
+  <title>Nusantara Surya Panel Surabaya | Lampu PJU Solar & Tiang PJU</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================
+     PRELOADER
+     ============================================ -->
+<div id="preloader">
+  <img src="NSP WEBSITE/logo-nsp.png" alt="NSP Logo" class="preloader-logo">
+  <div class="preloader-bar">
+    <div class="preloader-bar-inner"></div>
+  </div>
+  <p class="preloader-text">Loading NSP Surabaya...</p>
+</div>
+
+<!-- ============================================
+     NAVBAR
+     ============================================ -->
+<nav id="navbar">
+  <div class="nav-container">
+    <!-- Logo -->
+    <a class="nav-logo" data-scroll="home" href="#">
+      <img src="NSP WEBSITE/logo-nsp.png" alt="NSP Logo">
+      <div class="nav-logo-text">
+        <span class="nav-logo-name">Nusantara Surya Panel</span>
+        <span class="nav-logo-sub">Surabaya · Est. 2019</span>
+      </div>
+    </a>
+
+    <!-- Desktop Menu -->
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a class="nav-link" data-scroll="home" href="#">Beranda</a>
+      </li>
+      <li class="nav-item">
+        <span class="nav-link" style="cursor:default">Produk <span class="arrow">▾</span></span>
+        <!-- MEGA MENU -->
+        <div class="mega-menu">
+          <div class="mega-menu-grid">
+            <!-- Col 1: Lampu PJU -->
+            <div>
+              <div class="mega-col-title">⚡ Lampu PJU Solar</div>
+              <a class="mega-item" data-scroll="products" href="#" onclick="filterProduct('lampu')">
+                <div class="mega-item-icon">💡</div>
+                <div>
+                  <div style="font-weight:700;font-size:13px">AIO (All-in-One)</div>
+                  <div style="font-size:11px;color:rgba(255,255,255,0.45)">Panel & Lampu Terintegrasi</div>
+                </div>
+              </a>
+              <a class="mega-item" data-scroll="products" href="#" onclick="filterProduct('lampu')">
+                <div class="mega-item-icon">🔆</div>
+                <div>
+                  <div style="font-weight:700;font-size:13px">2 in 1</div>
+                  <div style="font-size:11px;color:rgba(255,255,255,0.45)">Panel & Lampu Terpisah</div>
+                </div>
+              </a>
+              <a class="mega-item" data-scroll="products" href="#" onclick="filterProduct('lampu')">
+                <div class="mega-item-icon">☀️</div>
+                <div>
+                  <div style="font-weight:700;font-size:13px">PLTS Safelight</div>
+                  <div style="font-size:11px;color:rgba(255,255,255,0.45)">Sistem Solar Lengkap</div>
+                </div>
+              </a>
+            </div>
+            <!-- Col 2: Tiang PJU -->
+            <div>
+              <div class="mega-col-title">🏗️ Tiang PJU</div>
+              <a class="mega-item" data-scroll="products" href="#" onclick="filterProduct('tiang')">
+                <div class="mega-item-icon">⬡</div>
+                <div>
+                  <div style="font-weight:700;font-size:13px">Tiang Oktagonal</div>
+                  <div style="font-size:11px;color:rgba(255,255,255,0.45)">Galvanis Hot-Dip</div>
+                </div>
+              </a>
+              <a class="mega-item" data-scroll="products" href="#" onclick="filterProduct('tiang')">
+                <div class="mega-item-icon">○</div>
+                <div>
+                  <div style="font-weight:700;font-size:13px">Tiang Bulat</div>
+                  <div style="font-size:11px;color:rgba(255,255,255,0.45)">Round Steel Pole</div>
+                </div>
+              </a>
+              <a class="mega-item" data-scroll="products" href="#" onclick="filterProduct('tiang')">
+                <div class="mega-item-icon">🔝</div>
+                <div>
+                  <div style="font-weight:700;font-size:13px">High Mast</div>
+                  <div style="font-size:11px;color:rgba(255,255,255,0.45)">Tiang Tinggi 20–30m</div>
+                </div>
+              </a>
+            </div>
+            <!-- Col 3: Solar Systems -->
+            <div>
+              <div class="mega-col-title">🌱 Sistem Solar</div>
+              <a class="mega-item" data-scroll="products" href="#" onclick="filterProduct('solar')">
+                <div class="mega-item-icon">🏠</div>
+                <div>
+                  <div style="font-weight:700;font-size:13px">Solar Home System</div>
+                  <div style="font-size:11px;color:rgba(255,255,255,0.45)">Listrik Mandiri Rumahan</div>
+                </div>
+              </a>
+              <a class="mega-item" data-scroll="products" href="#" onclick="filterProduct('solar')">
+                <div class="mega-item-icon">🔥</div>
+                <div>
+                  <div style="font-weight:700;font-size:13px">Solar Explosive Proof</div>
+                  <div style="font-size:11px;color:rgba(255,255,255,0.45)">Area Berbahaya & Industri</div>
+                </div>
+              </a>
+              <a class="mega-item" data-scroll="products" href="#" onclick="filterProduct('solar')">
+                <div class="mega-item-icon">💧</div>
+                <div>
+                  <div style="font-weight:700;font-size:13px">Solar Water Pump</div>
+                  <div style="font-size:11px;color:rgba(255,255,255,0.45)">Pompa Air Tenaga Surya</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-scroll="about" href="#">Tentang Kami</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-scroll="contact" href="#">Kontak</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-cta" href="https://wa.me/6281553926665/" target="_blank">💬 Konsultasi</a>
+      </li>
+    </ul>
+
+    <!-- Hamburger -->
+    <div class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- ---- MOBILE MENU ---- -->
+<div class="mobile-menu" id="mobileMenu">
+  <a class="mobile-nav-link" data-scroll="home" href="#">🏠 Beranda</a>
+  <div class="mobile-nav-link" data-sub="mSub1">
+    📦 Produk <span class="m-arrow" style="transition:transform 0.3s">▾</span>
+  </div>
+  <div class="mobile-submenu" id="mSub1">
+    <div class="mobile-submenu-title">Lampu PJU Solar</div>
+    <a class="mobile-sub-item" data-scroll="products" href="#">💡 AIO (All-in-One)</a>
+    <a class="mobile-sub-item" data-scroll="products" href="#">🔆 2 in 1</a>
+    <a class="mobile-sub-item" data-scroll="products" href="#">☀️ PLTS Safelight</a>
+    <div class="mobile-submenu-title">Tiang PJU</div>
+    <a class="mobile-sub-item" data-scroll="products" href="#">⬡ Tiang Oktagonal</a>
+    <a class="mobile-sub-item" data-scroll="products" href="#">○ Tiang Bulat</a>
+    <div class="mobile-submenu-title">Sistem Solar</div>
+    <a class="mobile-sub-item" data-scroll="products" href="#">🏠 Solar Home System</a>
+    <a class="mobile-sub-item" data-scroll="products" href="#">🔥 Solar Explosive Proof</a>
+    <a class="mobile-sub-item" data-scroll="products" href="#">💧 Solar Water Pump</a>
+  </div>
+  <a class="mobile-nav-link" data-scroll="about" href="#">ℹ️ Tentang Kami</a>
+  <a class="mobile-nav-link" data-scroll="contact" href="#">📞 Kontak</a>
+  <a class="mobile-nav-link" href="https://wa.me/6281553926665/" target="_blank" style="background:rgba(37,211,102,0.1);color:#25D366;border-radius:8px">💬 Konsultasi via WhatsApp</a>
+</div>
+
+<!-- ============================================
+     HERO SECTION
+     ============================================ -->
+<section id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid-lines"></div>
+  <div class="hero-particles"></div>
+
+  <div class="hero-container">
+    <!-- Content Left -->
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Distributor Resmi · Surabaya
+      </div>
+      <h1 class="hero-title">
+        Terangi<br>
+        <span class="highlight"><span class="typing-text">Penerangan Jalan</span></span><br>
+        Indonesia
+      </h1>
+      <p class="hero-subtitle">
+        Solusi lengkap Lampu PJU Solar, Tiang PJU, dan Sistem Energi Surya untuk infrastruktur penerangan jalan yang andal, hemat energi, dan berteknologi tinggi.
+      </p>
+      <div class="hero-buttons">
+        <a class="btn-primary" data-scroll="products" href="#">
+          ⚡ Lihat Produk
+        </a>
+        <a class="btn-secondary" href="https://wa.me/6281553926665/" target="_blank">
+          💬 Minta Penawaran
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-number">6+</div>
+          <div class="stat-label">Tahun Berpengalaman</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">500+</div>
+          <div class="stat-label">Proyek Selesai</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">34</div>
+          <div class="stat-label">Provinsi Terlayani</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Visual Right -->
+    <div class="hero-visual">
+      <div class="hero-glow-ring"></div>
+      <div class="hero-glow-ring-2"></div>
+      <img class="hero-main-img" src="NSP WEBSITE/aio-60-watt-1.png" alt="Lampu PJU Solar AIO">
+
+      <div class="hero-badge-float hbf-1">
+        <span class="icon">🏆</span>
+        <div>
+          <span>Bersertifikat SNI</span>
+          <span class="small">ISO 9001 · TKDN</span>
+        </div>
+      </div>
+      <div class="hero-badge-float hbf-2">
+        <span class="icon">☀️</span>
+        <div>
+          <span>100% Solar Power</span>
+          <span class="small">Zero Electricity Bill</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     MARQUEE STRIP
+     ============================================ -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <!-- Repeated twice for seamless loop -->
+    <span class="marquee-item">⚡ Lampu PJU AIO</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">☀️ Panel Surya Monocrystalline</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">🏗️ Tiang Oktagonal & Bulat</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">🔋 Baterai Lithium LiFePO4</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">🏠 Solar Home System</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">💧 Solar Water Pump</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">🔥 Solar Explosive Proof</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">✅ Bergaransi 2 Tahun</span>
+    <span class="marquee-sep">◆</span>
+    <!-- Duplicate -->
+    <span class="marquee-item">⚡ Lampu PJU AIO</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">☀️ Panel Surya Monocrystalline</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">🏗️ Tiang Oktagonal & Bulat</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">🔋 Baterai Lithium LiFePO4</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">🏠 Solar Home System</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">💧 Solar Water Pump</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">🔥 Solar Explosive Proof</span>
+    <span class="marquee-sep">◆</span>
+    <span class="marquee-item">✅ Bergaransi 2 Tahun</span>
+    <span class="marquee-sep">◆</span>
+  </div>
+</div>
+
+<!-- ============================================
+     FEATURES / WHY US
+     ============================================ -->
+<section id="features">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">✨ Keunggulan Kami</div>
+      <h2 class="section-title section-title-dark">Mengapa <span class="yellow">Pilih Kami?</span></h2>
+      <p class="section-desc section-desc-dark">Kami hadir dengan solusi penerangan jalan yang terstandarisasi, bersertifikat, dan terpercaya sejak 2019.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card reveal reveal-delay-1">
+        <div class="feature-icon">🏆</div>
+        <div class="feature-title">Tersertifikasi SNI & ISO</div>
+        <p class="feature-desc">Seluruh produk telah memenuhi standar SNI IEC 60598-1:2016, ISO 9001, dan terdaftar TKDN Kementerian Perindustrian RI.</p>
+      </div>
+      <div class="feature-card reveal reveal-delay-2">
+        <div class="feature-icon">⚡</div>
+        <div class="feature-title">Teknologi Chip SMD5050</div>
+        <p class="feature-desc">Menggunakan LED chip SMD5050 Philips dengan efisiensi tinggi, daya tahan lama, dan pancaran cahaya merata.</p>
+      </div>
+      <div class="feature-card reveal reveal-delay-3">
+        <div class="feature-icon">🔋</div>
+        <div class="feature-title">Baterai LiFePO4</div>
+        <p class="feature-desc">Dilengkapi baterai lithium LiFePO4 IP68 dengan kapasitas hingga 960Wh, tahan air, aman, dan siklus panjang.</p>
+      </div>
+      <div class="feature-card reveal reveal-delay-4">
+        <div class="feature-icon">🌦️</div>
+        <div class="feature-title">Tahan 5 Hari Hujan</div>
+        <p class="feature-desc">Dirancang mampu beroperasi penuh hingga 5 hari berturut-turut meski tidak ada sinar matahari dengan daya cadangan optimal.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     PRODUCTS SECTION
+     ============================================ -->
+<section id="products">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">📦 Katalog Produk</div>
+      <h2 class="section-title">Produk <span class="yellow">Unggulan</span></h2>
+      <p class="section-desc">Temukan solusi penerangan solar lengkap dari Nusantara Surya Panel untuk kebutuhan infrastruktur Anda.</p>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="product-filter reveal">
+      <button class="filter-btn active" data-filter="all">Semua Produk</button>
+      <button class="filter-btn" data-filter="lampu">Lampu PJU</button>
+      <button class="filter-btn" data-filter="tiang">Tiang PJU</button>
+      <button class="filter-btn" data-filter="solar">Sistem Solar</button>
+    </div>
+
+    <div class="products-grid">
+
+      <!-- AIO 60 Watt -->
+      <div class="product-card reveal" data-cat="lampu">
+        <div class="product-img-wrap">
+          <img src="NSP WEBSITE/aio-60-watt.png" alt="Lampu PJU AIO 60 Watt">
+          <span class="product-badge-cat">Lampu PJU</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">AIO 60 Watt TKDN</div>
+          <p class="product-desc">Lampu jalan solar All-in-One Model TSN-A60 dengan panel bifacial, chip SMD5050, baterai lithium, dan sensor gerak terintegrasi.</p>
+          <div class="product-tags">
+            <span class="product-tag">60W LED</span>
+            <span class="product-tag">SNI Certified</span>
+            <span class="product-tag">TKDN</span>
+            <span class="product-tag">IP65</span>
+          </div>
+          <a class="btn-inquire" href="https://wa.me/6281553926665/?text=Saya%20ingin%20menanyakan%20harga%20Lampu%20PJU%20AIO%2060%20Watt%20TKDN" target="_blank">💬 Minta Penawaran</a>
+        </div>
+      </div>
+
+      <!-- 2 in 1 -->
+      <div class="product-card reveal reveal-delay-1" data-cat="lampu">
+        <div class="product-img-wrap">
+          <img src="NSP WEBSITE/2in1.png" alt="Lampu PJU 2 in 1">
+          <span class="product-badge-cat">Lampu PJU</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">PJU 2 in 1 TKDN</div>
+          <p class="product-desc">Sistem penerangan jalan solar dengan panel dan lampu terpisah (split). Double-sided solar panel untuk efisiensi 20% lebih tinggi.</p>
+          <div class="product-tags">
+            <span class="product-tag">Panel Bifacial</span>
+            <span class="product-tag">SNI Certified</span>
+            <span class="product-tag">TKDN</span>
+            <span class="product-tag">Modular</span>
+          </div>
+          <a class="btn-inquire" href="https://wa.me/6281553926665/?text=Saya%20ingin%20menanyakan%20harga%20Lampu%20PJU%202in1%20TKDN" target="_blank">💬 Minta Penawaran</a>
+        </div>
+      </div>
+
+      <!-- PLTS Safelight -->
+      <div class="product-card reveal reveal-delay-2" data-cat="lampu">
+        <div class="product-img-wrap">
+          <img src="NSP WEBSITE/PLTS-SAFELIGHT-1.png" alt="Lampu PJU PLTS Safelight">
+          <span class="product-badge-cat">Lampu PJU</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">PLTS Safelight</div>
+          <p class="product-desc">Sistem lampu jalan solar lengkap dengan baterai VRLA, panel mono 100W, controller cerdas, dan proteksi IP68 untuk area terpencil.</p>
+          <div class="product-tags">
+            <span class="product-tag">60W</span>
+            <span class="product-tag">SNI</span>
+            <span class="product-tag">Baterai VRLA</span>
+            <span class="product-tag">IP68</span>
+          </div>
+          <a class="btn-inquire" href="https://wa.me/6281553926665/?text=Saya%20ingin%20menanyakan%20harga%20Lampu%20PJU%20PLTS%20Safelight" target="_blank">💬 Minta Penawaran</a>
+        </div>
+      </div>
+
+      <!-- Tiang Oktagonal -->
+      <div class="product-card reveal" data-cat="tiang">
+        <div class="product-img-wrap">
+          <img src="NSP WEBSITE/oktagonal-1.png" alt="Tiang PJU Oktagonal">
+          <span class="product-badge-cat">Tiang PJU</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Tiang Oktagonal</div>
+          <p class="product-desc">Tiang PJU oktagonal baja galvanis hot-dip berkualitas tinggi. Tersedia berbagai ukuran dan ketebalan untuk kebutuhan proyek besar.</p>
+          <div class="product-tags">
+            <span class="product-tag">Galvanis Hot-Dip</span>
+            <span class="product-tag">Baja SS400</span>
+            <span class="product-tag">Custom Size</span>
+          </div>
+          <a class="btn-inquire" href="https://wa.me/6281553926665/?text=Saya%20ingin%20menanyakan%20harga%20Tiang%20PJU%20Oktagonal" target="_blank">💬 Minta Penawaran</a>
+        </div>
+      </div>
+
+      <!-- Tiang Bulat -->
+      <div class="product-card reveal reveal-delay-1" data-cat="tiang">
+        <div class="product-img-wrap">
+          <img src="NSP WEBSITE/tiang-bulat-2.png" alt="Tiang PJU Bulat">
+          <span class="product-badge-cat">Tiang PJU</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Tiang Bulat (Round Pole)</div>
+          <p class="product-desc">Tiang PJU pipa bulat galvanis dengan base plate dan anchor bolt. Cocok untuk lingkungan perumahan, jalan kampung, dan area wisata.</p>
+          <div class="product-tags">
+            <span class="product-tag">Round Pole</span>
+            <span class="product-tag">Hot-Dip Galvanis</span>
+            <span class="product-tag">Base Plate</span>
+          </div>
+          <a class="btn-inquire" href="https://wa.me/6281553926665/?text=Saya%20ingin%20menanyakan%20harga%20Tiang%20PJU%20Bulat" target="_blank">💬 Minta Penawaran</a>
+        </div>
+      </div>
+
+      <!-- Solar Home System -->
+      <div class="product-card reveal reveal-delay-2" data-cat="solar">
+        <div class="product-img-wrap">
+          <img src="NSP WEBSITE/SHS.png" alt="Solar Home System">
+          <span class="product-badge-cat">Solar System</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Solar Home System</div>
+          <p class="product-desc">Paket lengkap PLTS rumahan 100% buatan Indonesia: panel monocrystalline, inverter, baterai AGM, controller, dan lampu LED.</p>
+          <div class="product-tags">
+            <span class="product-tag">100% Indonesia</span>
+            <span class="product-tag">Off-Grid</span>
+            <span class="product-tag">ISO 9001</span>
+          </div>
+          <a class="btn-inquire" href="https://wa.me/6281553926665/?text=Saya%20ingin%20menanyakan%20harga%20Solar%20Home%20System" target="_blank">💬 Minta Penawaran</a>
+        </div>
+      </div>
+
+      <!-- Solar Explosive Proof -->
+      <div class="product-card reveal" data-cat="solar">
+        <div class="product-img-wrap">
+          <img src="NSP WEBSITE/SOLAR-EXPLOSIVE-PROOF.png" alt="Solar Explosive Proof">
+          <span class="product-badge-cat">Solar System</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Solar Explosive Proof</div>
+          <p class="product-desc">Lampu solar tahan ledakan (Ex-Proof) untuk area berbahaya: migas, petrokimia, tambang. Dilengkapi flexible connecting pipe dan ex-proof cabinet.</p>
+          <div class="product-tags">
+            <span class="product-tag">Ex-Proof</span>
+            <span class="product-tag">ATEX Standard</span>
+            <span class="product-tag">Industri Migas</span>
+          </div>
+          <a class="btn-inquire" href="https://wa.me/6281553926665/?text=Saya%20ingin%20menanyakan%20harga%20Solar%20Explosive%20Proof" target="_blank">💬 Minta Penawaran</a>
+        </div>
+      </div>
+
+      <!-- Solar Water Pump -->
+      <div class="product-card reveal reveal-delay-1" data-cat="solar">
+        <div class="product-img-wrap">
+          <img src="NSP WEBSITE/solar-water-pump-1.png" alt="Solar Water Pump">
+          <span class="product-badge-cat">Solar System</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Solar Water Pump</div>
+          <p class="product-desc">Pompa air tenaga surya 2200W dengan panel 250W×10 atau 300W×9, AC/DC controller cerdas, untuk pertanian, tambak, dan suplai air bersih.</p>
+          <div class="product-tags">
+            <span class="product-tag">2200W Pump</span>
+            <span class="product-tag">AC/DC Controller</span>
+            <span class="product-tag">Submersible</span>
+          </div>
+          <a class="btn-inquire" href="https://wa.me/6281553926665/?text=Saya%20ingin%20menanyakan%20harga%20Solar%20Water%20Pump" target="_blank">💬 Minta Penawaran</a>
+        </div>
+      </div>
+
+      <!-- Baterai PLTS -->
+      <div class="product-card reveal reveal-delay-2" data-cat="solar">
+        <div class="product-img-wrap">
+          <img src="NSP WEBSITE/BATERAI-PLTS.png" alt="Baterai PLTS LiFePO4">
+          <span class="product-badge-cat">Komponen</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Baterai LiFePO4 PLTS</div>
+          <p class="product-desc">Baterai lithium iron phosphate untuk sistem PLTS. Model M40–M80, kapasitas 480–960Wh, IP68, dengan controller cerdas terintegrasi.</p>
+          <div class="product-tags">
+            <span class="product-tag">LiFePO4</span>
+            <span class="product-tag">IP68</span>
+            <span class="product-tag">480–960Wh</span>
+          </div>
+          <a class="btn-inquire" href="https://wa.me/6281553926665/?text=Saya%20ingin%20menanyakan%20harga%20Baterai%20LiFePO4%20PLTS" target="_blank">💬 Minta Penawaran</a>
+        </div>
+      </div>
+
+    </div><!-- /products-grid -->
+  </div>
+</section>
+
+<!-- ============================================
+     STATS COUNTER
+     ============================================ -->
+<section id="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-block reveal">
+        <div class="stat-icon">🏗️</div>
+        <div class="stat-count"><span data-target="500">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-name">Proyek Terpasang</div>
+      </div>
+      <div class="stat-block reveal reveal-delay-1">
+        <div class="stat-icon">🌏</div>
+        <div class="stat-count"><span data-target="34">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-name">Provinsi Terlayani</div>
+      </div>
+      <div class="stat-block reveal reveal-delay-2">
+        <div class="stat-icon">⚡</div>
+        <div class="stat-count"><span data-target="10000">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-name">Unit Terjual</div>
+      </div>
+      <div class="stat-block reveal reveal-delay-3">
+        <div class="stat-icon">🤝</div>
+        <div class="stat-count"><span data-target="200">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-name">Mitra & Klien</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     CERTIFICATES STRIP
+     ============================================ -->
+<div class="cert-strip">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:28px">
+      <p style="font-size:11px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,0.4);font-weight:700">Sertifikasi & Standar Produk</p>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-badge reveal">
+        <span class="cert-badge-icon">🏆</span>
+        <div class="cert-badge-text">
+          <div class="cert-title">ISO 9001 Certified</div>
+          <div class="cert-sub">Manajemen Mutu</div>
+        </div>
+      </div>
+      <div class="cert-badge reveal reveal-delay-1">
+        <span class="cert-badge-icon">✅</span>
+        <div class="cert-badge-text">
+          <div class="cert-title">SNI IEC 60598</div>
+          <div class="cert-sub">Standar Lampu Indonesia</div>
+        </div>
+      </div>
+      <div class="cert-badge reveal reveal-delay-2">
+        <span class="cert-badge-icon">🇮🇩</span>
+        <div class="cert-badge-text">
+          <div class="cert-title">TKDN Certified</div>
+          <div class="cert-sub">Kemenperin RI</div>
+        </div>
+      </div>
+      <div class="cert-badge reveal reveal-delay-3">
+        <span class="cert-badge-icon">🛡️</span>
+        <div class="cert-badge-text">
+          <div class="cert-title">Garansi 2 Tahun</div>
+          <div class="cert-sub">Produk & Instalasi</div>
+        </div>
+      </div>
+      <div class="cert-badge reveal reveal-delay-4">
+        <span class="cert-badge-icon">💧</span>
+        <div class="cert-badge-text">
+          <div class="cert-title">IP65 / IP68</div>
+          <div class="cert-sub">Water & Dust Proof</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     ABOUT SECTION
+     ============================================ -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <!-- Visual -->
+      <div class="about-visual reveal-left">
+        <img class="about-img-main" src="NSP WEBSITE/2in1-tkdn-1.png" alt="Produk NSP Surabaya">
+        <img class="about-img-float" src="NSP WEBSITE/aio-60-watt-tkdn.png" alt="AIO TKDN Certified">
+        <div class="about-badge-year">
+          <span class="year-num">2019</span>
+          <span class="year-sub">Since</span>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="about-content reveal-right">
+        <div class="section-tag">🏢 Tentang Kami</div>
+        <h2 class="section-title" style="margin-bottom:20px">Perjalanan <span class="yellow">NSP Surabaya</span></h2>
+
+        <p class="about-intro">
+          <strong>Nusantara Surya Panel Surabaya</strong> adalah perusahaan yang berdedikasi menghadirkan solusi penerangan jalan umum (PJU) berbasis energi surya yang andal, berkualitas, dan terjangkau untuk seluruh Indonesia.
+        </p>
+
+        <div class="about-milestones">
+          <div class="milestone">
+            <div class="milestone-year">2017</div>
+            <div class="milestone-content">
+              <div class="milestone-title">🏭 Berdirinya Perusahaan</div>
+              <div class="milestone-desc">Memulai perjalanan bisnis sebagai produsen Terpal Heavy Duty berkualitas tinggi di Surabaya, membangun fondasi operasional dan jaringan distribusi.</div>
+            </div>
+          </div>
+          <div class="milestone">
+            <div class="milestone-year">2019</div>
+            <div class="milestone-content">
+              <div class="milestone-title">☀️ Ekspansi ke Solar PJU</div>
+              <div class="milestone-desc">Memperluas bisnis ke distribusi Lampu Penerangan Jalan Umum (PJU) berbasis solar. Melihat peluang besar dalam infrastruktur energi terbarukan Indonesia.</div>
+            </div>
+          </div>
+          <div class="milestone">
+            <div class="milestone-year">2021</div>
+            <div class="milestone-content">
+              <div class="milestone-title">🏆 Sertifikasi SNI & TKDN</div>
+              <div class="milestone-desc">Berhasil mendapatkan sertifikasi SNI IEC 60598, ISO 9001, dan TKDN dari Kementerian Perindustrian RI untuk seluruh lini produk lampu PJU.</div>
+            </div>
+          </div>
+          <div class="milestone">
+            <div class="milestone-year">Kini</div>
+            <div class="milestone-content">
+              <div class="milestone-title">🌏 Melayani Seluruh Indonesia</div>
+              <div class="milestone-desc">Telah melayani lebih dari 500 proyek di 34 provinsi, menjadi mitra terpercaya pemerintah daerah, kontraktor, dan swasta dalam penerangan jalan.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-values">
+          <div class="value-item">
+            <div class="value-item-title">🎯 Visi</div>
+            <div class="value-item-desc">Menjadi distributor terkemuka solusi penerangan jalan solar terpercaya di Indonesia.</div>
+          </div>
+          <div class="value-item">
+            <div class="value-item-title">🚀 Misi</div>
+            <div class="value-item-desc">Menghadirkan produk berstandar internasional dengan harga kompetitif dan pelayanan terbaik.</div>
+          </div>
+          <div class="value-item">
+            <div class="value-item-title">💚 Komitmen</div>
+            <div class="value-item-desc">Mendukung transisi energi terbarukan Indonesia menuju infrastruktur yang mandiri dan ramah lingkungan.</div>
+          </div>
+          <div class="value-item">
+            <div class="value-item-title">🤝 Pelayanan</div>
+            <div class="value-item-desc">Konsultasi teknis gratis, survei lapangan, dan purna jual responsif untuk kepuasan pelanggan.</div>
+          </div>
+        </div>
+
+        <div style="margin-top:32px">
+          <a class="btn-primary" href="https://wa.me/6281553926665/?text=Halo%20NSP%2C%20saya%20ingin%20konsultasi%20tentang%20produk%20Anda" target="_blank">
+            💬 Konsultasi Gratis
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     CONTACT SECTION
+     ============================================ -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">📞 Hubungi Kami</div>
+      <h2 class="section-title section-title-dark">Siap <span class="yellow">Melayani Anda</span></h2>
+      <p class="section-desc section-desc-dark">Konsultasikan kebutuhan penerangan jalan Anda dengan tim ahli kami. Gratis survei dan estimasi biaya proyek.</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Contact Info -->
+      <div class="reveal-left">
+        <h3>Info Kontak</h3>
+        <p class="contact-intro">Tim kami siap membantu Anda menemukan solusi penerangan jalan solar yang tepat untuk proyek Anda, dari skala kecil hingga infrastruktur besar.</p>
+
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div>
+              <div class="contact-item-label">Alamat Kantor</div>
+              <div class="contact-item-value">Jl. Gn. Anyar Emas Selatan X No.148 No.J2,<br>Gn. Anyar Tambak, Kec. Gn. Anyar,<br>Surabaya, Jawa Timur 60294</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📱</div>
+            <div>
+              <div class="contact-item-label">WhatsApp</div>
+              <div class="contact-item-value">+62 815 5392 6665</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">⏰</div>
+            <div>
+              <div class="contact-item-label">Jam Operasional</div>
+              <div class="contact-item-value">Senin – Sabtu: 08.00 – 17.00 WIB<br>Minggu & Hari Besar: Closed</div>
+            </div>
+          </div>
+        </div>
+
+        <a class="btn-wa" href="https://wa.me/6281553926665/?text=Halo%20NSP%20Surabaya%2C%20saya%20ingin%20konsultasi%20produk%20solar%20PJU" target="_blank">
+          <span style="font-size:22px">💬</span> Chat via WhatsApp
+        </a>
+
+        <!-- Map -->
+        <div class="map-wrap" style="margin-top:28px">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7748!2d112.7847!3d-7.3282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbd9a5ec3c4b%3A0x1!2sJl.%20Gn.%20Anyar%20Emas%20Selatan%20X%2C%20Surabaya!5e0!3m2!1sid!2sid!4v1700000000"
+            width="100%" height="240"
+            style="border:0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="reveal-right">
+        <div class="contact-form-wrap">
+          <div class="form-title">⚡ Kirim Pesan</div>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="fname">Nama Lengkap</label>
+              <input type="text" id="fname" name="name" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div class="form-group">
+              <label for="femail">Email</label>
+              <input type="email" id="femail" name="email" placeholder="email@domain.com">
+            </div>
+            <div class="form-group">
+              <label for="fproduct">Produk yang Diminati</label>
+              <select id="fproduct" name="product">
+                <option value="Lampu PJU AIO">Lampu PJU AIO (All-in-One)</option>
+                <option value="Lampu PJU 2in1">Lampu PJU 2 in 1</option>
+                <option value="PLTS Safelight">PLTS Safelight</option>
+                <option value="Tiang Oktagonal">Tiang PJU Oktagonal</option>
+                <option value="Tiang Bulat">Tiang PJU Bulat</option>
+                <option value="Solar Home System">Solar Home System</option>
+                <option value="Solar Explosive Proof">Solar Explosive Proof</option>
+                <option value="Solar Water Pump">Solar Water Pump</option>
+                <option value="Baterai PLTS">Baterai PLTS LiFePO4</option>
+                <option value="Lainnya">Lainnya</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="fmessage">Pesan / Kebutuhan Anda</label>
+              <textarea id="fmessage" name="message" placeholder="Ceritakan kebutuhan proyek Anda: lokasi, jumlah unit, spesifikasi, dll." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              💬 Kirim via WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     FOOTER
+     ============================================ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Brand -->
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="NSP WEBSITE/logo-nsp.png" alt="NSP Logo">
+          <div>
+            <div class="footer-logo-name">Nusantara Surya Panel</div>
+            <div class="footer-logo-sub">Surabaya · Est. 2019</div>
+          </div>
+        </div>
+        <p class="footer-about">
+          Distributor terpercaya Lampu PJU Solar, Tiang PJU, dan Sistem Energi Surya untuk infrastruktur penerangan jalan Indonesia. Bersertifikasi SNI, ISO 9001, dan TKDN.
+        </p>
+        <div class="footer-social">
+          <a class="social-btn" href="https://wa.me/6281553926665/" target="_blank" title="WhatsApp">💬</a>
+          <a class="social-btn" href="#" title="Instagram">📸</a>
+          <a class="social-btn" href="#" title="YouTube">▶️</a>
+          <a class="social-btn" href="#" title="Facebook">📘</a>
+        </div>
+      </div>
+
+      <!-- Produk -->
+      <div>
+        <div class="footer-col-title">Produk</div>
+        <ul class="footer-links">
+          <li><a href="https://wa.me/6281553926665/?text=Saya%20ingin%20tanya%20AIO" target="_blank">→ Lampu PJU AIO</a></li>
+          <li><a href="https://wa.me/6281553926665/?text=Saya%20ingin%20tanya%202in1" target="_blank">→ Lampu PJU 2 in 1</a></li>
+          <li><a href="https://wa.me/6281553926665/?text=Saya%20ingin%20tanya%20PLTS" target="_blank">→ PLTS Safelight</a></li>
+          <li><a href="https://wa.me/6281553926665/?text=Saya%20ingin%20tanya%20Tiang%20Oktagonal" target="_blank">→ Tiang Oktagonal</a></li>
+          <li><a href="https://wa.me/6281553926665/?text=Saya%20ingin%20tanya%20Tiang%20Bulat" target="_blank">→ Tiang Bulat</a></li>
+          <li><a href="https://wa.me/6281553926665/?text=Saya%20ingin%20tanya%20SHS" target="_blank">→ Solar Home System</a></li>
+          <li><a href="https://wa.me/6281553926665/?text=Saya%20ingin%20tanya%20Solar%20Pump" target="_blank">→ Solar Water Pump</a></li>
+        </ul>
+      </div>
+
+      <!-- Layanan -->
+      <div>
+        <div class="footer-col-title">Layanan</div>
+        <ul class="footer-links">
+          <li><a href="https://wa.me/6281553926665/" target="_blank">→ Konsultasi Gratis</a></li>
+          <li><a href="https://wa.me/6281553926665/" target="_blank">→ Survei Lapangan</a></li>
+          <li><a href="https://wa.me/6281553926665/" target="_blank">→ Pengiriman Nasional</a></li>
+          <li><a href="https://wa.me/6281553926665/" target="_blank">→ Instalasi & Komisioning</a></li>
+          <li><a href="https://wa.me/6281553926665/" target="_blank">→ Purna Jual & Garansi</a></li>
+          <li><a href="https://wa.me/6281553926665/" target="_blank">→ Proyek Pemerintah</a></li>
+        </ul>
+      </div>
+
+      <!-- Info -->
+      <div>
+        <div class="footer-col-title">Informasi</div>
+        <ul class="footer-links">
+          <li><a href="#" data-scroll="about">→ Tentang Kami</a></li>
+          <li><a href="#" data-scroll="products">→ Katalog Produk</a></li>
+          <li><a href="#" data-scroll="contact">→ Kontak</a></li>
+          <li><a href="https://wa.me/6281553926665/" target="_blank">→ +62 815 5392 6665</a></li>
+          <li><a href="#">→ Kebijakan Privasi</a></li>
+        </ul>
+        <div style="margin-top:20px;font-size:12px;color:rgba(255,255,255,0.3);line-height:1.8">
+          Jl. Gn. Anyar Emas Selatan X No.148,<br>Surabaya, Jawa Timur 60294
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        &copy; 2025 <span>Nusantara Surya Panel Surabaya</span>. All Rights Reserved.
+      </p>
+      <p class="footer-copy">
+        Made with <span>☀️</span> in Surabaya, Indonesia
+      </p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================
+     FLOATING BUTTONS
+     ============================================ -->
+<a class="float-wa" href="https://wa.me/6281553926665/" target="_blank" title="Chat WhatsApp">
+  <span>💬</span>
+  <span class="wa-tooltip">Hubungi via WA</span>
+</a>
+
+<button class="back-top" id="backTop" title="Kembali ke Atas">↑</button>
+
+<script src="script.js"></script>
+<script>
+// Helper for mega menu product filter
+function filterProduct(cat) {
+  const btns = document.querySelectorAll('.filter-btn');
+  btns.forEach(b => {
+    b.classList.toggle('active', b.getAttribute('data-filter') === cat);
+  });
+  document.querySelectorAll('.product-card').forEach(card => {
+    card.style.display = card.getAttribute('data-cat') === cat ? 'flex' : 'none';
+  });
+}
+</script>
+</body>
+</html>
