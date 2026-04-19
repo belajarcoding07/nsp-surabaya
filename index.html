@@ -6,6 +6,161 @@
   <meta name="description" content="Nusantara Surya Panel Surabaya - Distributor Lampu PJU Solar, Tiang PJU, dan Sistem Energi Surya terpercaya di Surabaya sejak 2019.">
   <title>Nusantara Surya Panel Surabaya | Lampu PJU Solar & Tiang PJU</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- ============================================
+       [CHANGE #1] CALCULATOR SECTION STYLES
+       Added inline — no external file needed, no existing styles touched
+       ============================================ -->
+  <style>
+    /* ---- Calculator Section ---- */
+    #calculator {
+      background: linear-gradient(180deg, #0a0e1a 0%, #0d1220 50%, #0a0e1a 100%);
+      padding: 96px 0 80px;
+      position: relative;
+      overflow: hidden;
+    }
+    #calculator::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 40% at 50% 0%, rgba(245,166,35,0.07) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 30% at 20% 100%, rgba(59,130,246,0.05) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .calc-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .calc-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    /* Outer glow ring matching site's yellow accent */
+    .calc-glow-border {
+      position: relative;
+      border-radius: 20px;
+      padding: 2px;
+      background: linear-gradient(135deg,
+        rgba(245,166,35,0.6) 0%,
+        rgba(245,166,35,0.1) 30%,
+        rgba(59,130,246,0.15) 60%,
+        rgba(245,166,35,0.4) 100%
+      );
+      box-shadow:
+        0 0 40px rgba(245,166,35,0.12),
+        0 0 80px rgba(245,166,35,0.06),
+        0 24px 60px rgba(0,0,0,0.5);
+    }
+
+    .calc-inner {
+      background: #0d1525;
+      border-radius: 18px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Top bar — mirrors the site's card header style */
+    .calc-topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 20px;
+      background: linear-gradient(90deg, rgba(245,166,35,0.08) 0%, rgba(245,166,35,0.03) 100%);
+      border-bottom: 1px solid rgba(245,166,35,0.15);
+    }
+
+    .calc-topbar-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .calc-topbar-dots {
+      display: flex;
+      gap: 6px;
+    }
+
+    .calc-topbar-dots span {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: block;
+    }
+    .calc-topbar-dots span:nth-child(1) { background: #ff5f57; }
+    .calc-topbar-dots span:nth-child(2) { background: #febc2e; }
+    .calc-topbar-dots span:nth-child(3) { background: #28c840; }
+
+    .calc-topbar-title {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: rgba(245,166,35,0.8);
+    }
+
+    .calc-topbar-badge {
+      font-size: 11px;
+      padding: 3px 10px;
+      border-radius: 20px;
+      background: rgba(37,211,102,0.1);
+      color: #25D366;
+      border: 1px solid rgba(37,211,102,0.25);
+      font-weight: 600;
+    }
+
+    /* The iframe itself */
+    .calc-iframe {
+      width: 100%;
+      height: 720px;
+      border: none;
+      display: block;
+      background: #fff;
+    }
+
+    /* Caption below the iframe */
+    .calc-caption {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.3);
+      line-height: 1.7;
+    }
+
+    .calc-caption a {
+      color: rgba(245,166,35,0.7);
+      text-decoration: none;
+    }
+    .calc-caption a:hover {
+      color: rgba(245,166,35,1);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      #calculator {
+        padding: 64px 0 56px;
+      }
+      .calc-iframe {
+        height: 860px;
+      }
+      .calc-topbar-title {
+        font-size: 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .calc-iframe {
+        height: 960px;
+      }
+      .calc-topbar-badge {
+        display: none;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -125,6 +280,12 @@
       <li class="nav-item">
         <a class="nav-link" data-scroll="about" href="#">Tentang Kami</a>
       </li>
+      <!-- ============================================
+           [CHANGE #2A] Added "Kalkulator" nav link (desktop)
+           ============================================ -->
+      <li class="nav-item">
+        <a class="nav-link" data-scroll="calculator" href="#">🧮 Kalkulator PLTS</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" data-scroll="contact" href="#">Kontak</a>
       </li>
@@ -160,6 +321,10 @@
     <a class="mobile-sub-item" data-scroll="products" href="#">💧 Solar Water Pump</a>
   </div>
   <a class="mobile-nav-link" data-scroll="about" href="#">ℹ️ Tentang Kami</a>
+  <!-- ============================================
+       [CHANGE #2B] Added "Kalkulator" nav link (mobile)
+       ============================================ -->
+  <a class="mobile-nav-link" data-scroll="calculator" href="#">🧮 Kalkulator PLTS</a>
   <a class="mobile-nav-link" data-scroll="contact" href="#">📞 Kontak</a>
   <a class="mobile-nav-link" href="https://wa.me/6281553926665/" target="_blank" style="background:rgba(37,211,102,0.1);color:#25D366;border-radius:8px">💬 Konsultasi via WhatsApp</a>
 </div>
@@ -533,6 +698,65 @@
 </section>
 
 <!-- ============================================
+     [CHANGE #3] CALCULATOR SECTION
+     Placement: after #stats, before #cert-strip
+     — natural "now calculate your own needs" moment
+     — zero modifications to existing sections above or below
+     ============================================ -->
+<section id="calculator">
+  <div class="container">
+
+    <!-- Section Header — same pattern as all other sections -->
+    <div class="section-header calc-header reveal">
+      <div class="section-tag">🧮 Kalkulator PLTS</div>
+      <h2 class="section-title">Hitung <span class="yellow">Kebutuhan Solar</span> Anda</h2>
+      <p class="section-desc">
+        Gunakan kalkulator interaktif kami untuk memperkirakan spesifikasi dan biaya sistem PLTS yang sesuai dengan kebutuhan proyek Anda.
+      </p>
+    </div>
+
+    <!-- Calculator wrapper with branded chrome -->
+    <div class="calc-wrapper reveal">
+      <div class="calc-glow-border">
+        <div class="calc-inner">
+
+          <!-- Topbar — browser-chrome aesthetic matching dark tech theme -->
+          <div class="calc-topbar">
+            <div class="calc-topbar-left">
+              <div class="calc-topbar-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="calc-topbar-title">⚡ Kalkulator PLTS · NSP Surabaya</span>
+            </div>
+            <span class="calc-topbar-badge">🔒 Aman & Gratis</span>
+          </div>
+
+          <!-- The iframe — untouched, exactly as served by Google Apps Script -->
+          <iframe
+            class="calc-iframe"
+            src="https://script.google.com/macros/s/AKfycbxSrFs3p50mIDs6o6SZ1mNTFApflByl494C4199vRX0mX28UtsAYKwmEA9gdHDSACBh/exec"
+            title="Kalkulator PLTS Nusantara Surya Panel Surabaya"
+            loading="lazy"
+            allow="forms"
+          ></iframe>
+
+        </div><!-- /calc-inner -->
+      </div><!-- /calc-glow-border -->
+
+      <!-- Caption below iframe -->
+      <p class="calc-caption">
+        Hasil kalkulasi bersifat estimasi. Untuk penawaran resmi dan survei lapangan gratis,
+        <a href="https://wa.me/6281553926665/?text=Halo%20NSP%2C%20saya%20sudah%20coba%20kalkulator%20PLTS%20dan%20ingin%20konsultasi%20lebih%20lanjut" target="_blank">hubungi tim kami via WhatsApp →</a>
+      </p>
+    </div><!-- /calc-wrapper -->
+
+  </div>
+</section>
+<!-- ============================================
+     END [CHANGE #3]
+     ============================================ -->
+
+<!-- ============================================
      CERTIFICATES STRIP
      ============================================ -->
 <div class="cert-strip">
@@ -824,6 +1048,10 @@
         <ul class="footer-links">
           <li><a href="#" data-scroll="about">→ Tentang Kami</a></li>
           <li><a href="#" data-scroll="products">→ Katalog Produk</a></li>
+          <!-- ============================================
+               [CHANGE #4] Calculator link in footer
+               ============================================ -->
+          <li><a href="#" data-scroll="calculator">→ Kalkulator PLTS</a></li>
           <li><a href="#" data-scroll="contact">→ Kontak</a></li>
           <li><a href="https://wa.me/6281553926665/" target="_blank">→ +62 815 5392 6665</a></li>
           <li><a href="#">→ Kebijakan Privasi</a></li>
